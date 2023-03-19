@@ -11,9 +11,10 @@ that serve to achieve any proposed goal.
 
 NavyCalc software is comprised of 4 windows, “Home”, “Example”, “Help”, and
 “About”, each with a different structure and functionalities, adapted to the requirements,
-which together aim to provide a good user experience.\\
+which together aim to provide a good user experience.
 
-**Home window. ** The home window, suggestively named, is the window that will
+## Home window. 
+The home window, suggestively named, is the window that will
 appear everytime the application is opened. It is comprised of a variety of buttons, tables,
 labels, and a 2D chart. In the upper left corner, the menu can be found, which consists of
 4 buttons: “Home”, “Example”, “Help”, and “About”., with which you can navigate
