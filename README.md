@@ -43,20 +43,22 @@ In order to navigate to this window, one must press the “Example” button, lo
 the upper left corner.
 ![image](https://user-images.githubusercontent.com/121317737/226164648-df064d45-c731-4ee1-868f-4c99978ea803.png)
 
-##Help window
+## Help window 
 This window contains all the information you need to know in
 order to use NavyCalc.
 It consists of a series of tags (QLabel), used to write the text.
 In order to navigate to this window, one must press the “Help” button, located in the
 upper left corner. 
+
 ![image](https://user-images.githubusercontent.com/121317737/226164689-c79a97c2-d43c-46c7-87c5-1db7006c485a.png)
 
-##About window
+## About window
 This window contains information regarding the purpose,
 development and the author of NavyCalc.
 Its components are similar to the previous window presented.
 In order to navigate to this window, one must press the “About” button, located in
 the upper left corner
+
 ![image](https://user-images.githubusercontent.com/121317737/226164719-1e9fb44d-266e-466d-b328-433e8f5a24e2.png)
 
 ## Conclusions
