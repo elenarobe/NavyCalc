@@ -1,0 +1,1517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1390</width>
+    <height>897</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1391</width>
+     <height>901</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#frame{
+border-image:url(:/newPrefix/fundal aplicatie.jpg);
+}</string>
+   </property>
+   <widget class="QTableWidget" name="tabelvalori">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>160</y>
+      <width>981</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+font: 63 10pt &quot;Bookman Old Style&quot;;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>3</number>
+    </property>
+    <property name="midLineWidth">
+     <number>2</number>
+    </property>
+    <property name="alternatingRowColors">
+     <bool>true</bool>
+    </property>
+    <property name="rowCount">
+     <number>7</number>
+    </property>
+    <attribute name="horizontalHeaderCascadingSectionResizes">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>75</number>
+    </attribute>
+    <attribute name="horizontalHeaderStretchLastSection">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="verticalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column>
+     <property name="text">
+      <string>φ</string>
+     </property>
+     <property name="font">
+      <font>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>λ</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>O</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Cl</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Vl</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Vn</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Da</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Dg</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Dc</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Dm</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Δg</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Δt</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>f</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>29-00-00.00E</string>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string>43-40-00.00N</string>
+     </property>
+    </item>
+    <item row="0" column="2">
+     <property name="text">
+      <string>08:00:00</string>
+     </property>
+    </item>
+    <item row="0" column="3">
+     <property name="text">
+      <string>125</string>
+     </property>
+    </item>
+    <item row="0" column="4">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="0" column="5">
+     <property name="text">
+      <string>10</string>
+     </property>
+    </item>
+    <item row="0" column="6">
+     <property name="text">
+      <string>25</string>
+     </property>
+    </item>
+    <item row="0" column="7">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="0" column="8">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="0" column="9">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="0" column="10">
+     <property name="text">
+      <string>1.5</string>
+     </property>
+    </item>
+    <item row="0" column="11">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="0" column="12">
+     <property name="text">
+      <string>0.93</string>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string>29-03-00.00E</string>
+     </property>
+    </item>
+    <item row="1" column="1">
+     <property name="text">
+      <string>43-45-00.00N</string>
+     </property>
+    </item>
+    <item row="1" column="2">
+     <property name="text">
+      <string>08:30:00</string>
+     </property>
+    </item>
+    <item row="1" column="3">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="1" column="4">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="1" column="5">
+     <property name="text">
+      <string>12</string>
+     </property>
+    </item>
+    <item row="1" column="6">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="1" column="7">
+     <property name="text">
+      <string>348.5</string>
+     </property>
+    </item>
+    <item row="1" column="8">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="1" column="9">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="1" column="10">
+     <property name="text">
+      <string>1.5</string>
+     </property>
+    </item>
+    <item row="1" column="11">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="1" column="12">
+     <property name="text">
+      <string>0.93</string>
+     </property>
+    </item>
+    <item row="2" column="0">
+     <property name="text">
+      <string>29-00-05.00E</string>
+     </property>
+    </item>
+    <item row="2" column="1">
+     <property name="text">
+      <string>43-55-05.00N</string>
+     </property>
+    </item>
+    <item row="2" column="2">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="2" column="3">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="2" column="4">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="2" column="5">
+     <property name="text">
+      <string>9</string>
+     </property>
+    </item>
+    <item row="2" column="6">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="2" column="7">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="2" column="8">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="2" column="9">
+     <property name="text">
+      <string>78.5</string>
+     </property>
+    </item>
+    <item row="2" column="10">
+     <property name="text">
+      <string>1.5</string>
+     </property>
+    </item>
+    <item row="2" column="11">
+     <property name="text">
+      <string>55</string>
+     </property>
+    </item>
+    <item row="2" column="12">
+     <property name="text">
+      <string>0.93</string>
+     </property>
+    </item>
+    <item row="3" column="0">
+     <property name="text">
+      <string>29-09-00.00E</string>
+     </property>
+    </item>
+    <item row="3" column="1">
+     <property name="text">
+      <string>43-56-00.00N</string>
+     </property>
+    </item>
+    <item row="3" column="2">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="3" column="3">
+     <property name="text">
+      <string>149.4</string>
+     </property>
+    </item>
+    <item row="3" column="4">
+     <property name="text">
+      <string>16.1</string>
+     </property>
+    </item>
+    <item row="3" column="5">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="3" column="6">
+     <property name="text">
+      <string>310</string>
+     </property>
+    </item>
+    <item row="3" column="7">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="3" column="8">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="3" column="9">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="3" column="10">
+     <property name="text">
+      <string>1.5</string>
+     </property>
+    </item>
+    <item row="3" column="11">
+     <property name="text">
+      <string>45</string>
+     </property>
+    </item>
+    <item row="3" column="12">
+     <property name="text">
+      <string>0.93</string>
+     </property>
+    </item>
+    <item row="4" column="0">
+     <property name="text">
+      <string>29-01-00.00E</string>
+     </property>
+    </item>
+    <item row="4" column="1">
+     <property name="text">
+      <string>44-02-00.00N</string>
+     </property>
+    </item>
+    <item row="4" column="2">
+     <property name="text">
+      <string>10:45:00</string>
+     </property>
+    </item>
+    <item row="4" column="3">
+     <property name="text">
+      <string>159</string>
+     </property>
+    </item>
+    <item row="4" column="4">
+     <property name="text">
+      <string>12.9</string>
+     </property>
+    </item>
+    <item row="4" column="5">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="4" column="6">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="4" column="7">
+     <property name="text">
+      <string>43.5</string>
+     </property>
+    </item>
+    <item row="4" column="8">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="4" column="9">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="4" column="10">
+     <property name="text">
+      <string>1.5</string>
+     </property>
+    </item>
+    <item row="4" column="11">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="4" column="12">
+     <property name="text">
+      <string>0.93</string>
+     </property>
+    </item>
+    <item row="5" column="0">
+     <property name="text">
+      <string>29-07-00.00E</string>
+     </property>
+    </item>
+    <item row="5" column="1">
+     <property name="text">
+      <string>44-07-00.00N</string>
+     </property>
+    </item>
+    <item row="5" column="2">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="5" column="3">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="5" column="4">
+     <property name="text">
+      <string>10.7</string>
+     </property>
+    </item>
+    <item row="5" column="5">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="5" column="6">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="5" column="7">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="5" column="8">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="5" column="9">
+     <property name="text">
+      <string>333.5</string>
+     </property>
+    </item>
+    <item row="5" column="10">
+     <property name="text">
+      <string>1.5</string>
+     </property>
+    </item>
+    <item row="5" column="11">
+     <property name="text">
+      <string>35</string>
+     </property>
+    </item>
+    <item row="5" column="12">
+     <property name="text">
+      <string>0.93</string>
+     </property>
+    </item>
+    <item row="6" column="0">
+     <property name="text">
+      <string>29-05-00.00E</string>
+     </property>
+    </item>
+    <item row="6" column="1">
+     <property name="text">
+      <string>44-13-00.00N</string>
+     </property>
+    </item>
+    <item row="6" column="2">
+     <property name="text">
+      <string>12:00:00</string>
+     </property>
+    </item>
+    <item row="6" column="3">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="6" column="4">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="6" column="5">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="6" column="6">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="6" column="7">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="6" column="8">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="6" column="9">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="6" column="10">
+     <property name="text">
+      <string>1.5</string>
+     </property>
+    </item>
+    <item row="6" column="11">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="6" column="12">
+     <property name="text">
+      <string>0.93</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QTableWidget" name="tabelrezultate">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>510</y>
+      <width>981</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+font: 63 10pt &quot;Bookman Old Style&quot;;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>3</number>
+    </property>
+    <property name="midLineWidth">
+     <number>2</number>
+    </property>
+    <property name="alternatingRowColors">
+     <bool>true</bool>
+    </property>
+    <property name="rowCount">
+     <number>7</number>
+    </property>
+    <attribute name="horizontalHeaderCascadingSectionResizes">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>75</number>
+    </attribute>
+    <attribute name="horizontalHeaderStretchLastSection">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="verticalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column>
+     <property name="text">
+      <string>φ</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>λ</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>O</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Cl</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>m</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>ml</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Vn</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Da</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Dg</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Dc</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Dm</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>ẟc</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Δc</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>29-00-00.00E</string>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string>43-40-00.00N</string>
+     </property>
+    </item>
+    <item row="0" column="2">
+     <property name="text">
+      <string>08:00:00</string>
+     </property>
+    </item>
+    <item row="0" column="3">
+     <property name="text">
+      <string>125.0</string>
+     </property>
+    </item>
+    <item row="0" column="4">
+     <property name="text">
+      <string>0.0Mm</string>
+     </property>
+    </item>
+    <item row="0" column="5">
+     <property name="text">
+      <string>0.0</string>
+     </property>
+    </item>
+    <item row="0" column="6">
+     <property name="text">
+      <string>10.0Nd</string>
+     </property>
+    </item>
+    <item row="0" column="7">
+     <property name="text">
+      <string>25.0°</string>
+     </property>
+    </item>
+    <item row="0" column="8">
+     <property name="text">
+      <string>23.5°</string>
+     </property>
+    </item>
+    <item row="0" column="9">
+     <property name="text">
+      <string>17.0°</string>
+     </property>
+    </item>
+    <item row="0" column="10">
+     <property name="text">
+      <string>18.5°</string>
+     </property>
+    </item>
+    <item row="0" column="11">
+     <property name="text">
+      <string>1.5°</string>
+     </property>
+    </item>
+    <item row="0" column="12">
+     <property name="text">
+      <string>8.0°</string>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string>29-03-00.00E</string>
+     </property>
+    </item>
+    <item row="1" column="1">
+     <property name="text">
+      <string>43-45-00.00N</string>
+     </property>
+    </item>
+    <item row="1" column="2">
+     <property name="text">
+      <string>08:30:00</string>
+     </property>
+    </item>
+    <item row="1" column="3">
+     <property name="text">
+      <string>130.4</string>
+     </property>
+    </item>
+    <item row="1" column="4">
+     <property name="text">
+      <string>5.0Mm</string>
+     </property>
+    </item>
+    <item row="1" column="5">
+     <property name="text">
+      <string>5.4</string>
+     </property>
+    </item>
+    <item row="1" column="6">
+     <property name="text">
+      <string>12.0Nd</string>
+     </property>
+    </item>
+    <item row="1" column="7">
+     <property name="text">
+      <string>350.0°</string>
+     </property>
+    </item>
+    <item row="1" column="8">
+     <property name="text">
+      <string>340.9°</string>
+     </property>
+    </item>
+    <item row="1" column="9">
+     <property name="text">
+      <string>359.1°</string>
+     </property>
+    </item>
+    <item row="1" column="10">
+     <property name="text">
+      <string>343.5°</string>
+     </property>
+    </item>
+    <item row="1" column="11">
+     <property name="text">
+      <string>2.6°</string>
+     </property>
+    </item>
+    <item row="1" column="12">
+     <property name="text">
+      <string>9.1°</string>
+     </property>
+    </item>
+    <item row="2" column="0">
+     <property name="text">
+      <string>29-00-05.00E</string>
+     </property>
+    </item>
+    <item row="2" column="1">
+     <property name="text">
+      <string>43-55-05.00N</string>
+     </property>
+    </item>
+    <item row="2" column="2">
+     <property name="text">
+      <string>09:25:00</string>
+     </property>
+    </item>
+    <item row="2" column="3">
+     <property name="text">
+      <string>142.2</string>
+     </property>
+    </item>
+    <item row="2" column="4">
+     <property name="text">
+      <string>11.0Mm</string>
+     </property>
+    </item>
+    <item row="2" column="5">
+     <property name="text">
+      <string>11.8</string>
+     </property>
+    </item>
+    <item row="2" column="6">
+     <property name="text">
+      <string>9.0Nd</string>
+     </property>
+    </item>
+    <item row="2" column="7">
+     <property name="text">
+      <string>85.0°</string>
+     </property>
+    </item>
+    <item row="2" column="8">
+     <property name="text">
+      <string>83.5°</string>
+     </property>
+    </item>
+    <item row="2" column="9">
+     <property name="text">
+      <string>80.4°</string>
+     </property>
+    </item>
+    <item row="2" column="10">
+     <property name="text">
+      <string>78.5°</string>
+     </property>
+    </item>
+    <item row="2" column="11">
+     <property name="text">
+      <string>-1.9°</string>
+     </property>
+    </item>
+    <item row="2" column="12">
+     <property name="text">
+      <string>4.6°</string>
+     </property>
+    </item>
+    <item row="3" column="0">
+     <property name="text">
+      <string>29-09-00.00E</string>
+     </property>
+    </item>
+    <item row="3" column="1">
+     <property name="text">
+      <string>43-45-00.00N</string>
+     </property>
+    </item>
+    <item row="3" column="2">
+     <property name="text">
+      <string>10:10:00</string>
+     </property>
+    </item>
+    <item row="3" column="3">
+     <property name="text">
+      <string>149.4</string>
+     </property>
+    </item>
+    <item row="3" column="4">
+     <property name="text">
+      <string>6.8Mm</string>
+     </property>
+    </item>
+    <item row="3" column="5">
+     <property name="text">
+      <string>7.3</string>
+     </property>
+    </item>
+    <item row="3" column="6">
+     <property name="text">
+      <string>15.0Nd</string>
+     </property>
+    </item>
+    <item row="3" column="7">
+     <property name="text">
+      <string>310.0°</string>
+     </property>
+    </item>
+    <item row="3" column="8">
+     <property name="text">
+      <string>308.5°</string>
+     </property>
+    </item>
+    <item row="3" column="9">
+     <property name="text">
+      <string>299.6°</string>
+     </property>
+    </item>
+    <item row="3" column="10">
+     <property name="text">
+      <string>303.5°</string>
+     </property>
+    </item>
+    <item row="3" column="11">
+     <property name="text">
+      <string>3.9°</string>
+     </property>
+    </item>
+    <item row="3" column="12">
+     <property name="text">
+      <string>10.4°</string>
+     </property>
+    </item>
+    <item row="4" column="0">
+     <property name="text">
+      <string>29-01-00.00E</string>
+     </property>
+    </item>
+    <item row="4" column="1">
+     <property name="text">
+      <string>44-02-00.00N</string>
+     </property>
+    </item>
+    <item row="4" column="2">
+     <property name="text">
+      <string>10:45:00</string>
+     </property>
+    </item>
+    <item row="4" column="3">
+     <property name="text">
+      <string>159</string>
+     </property>
+    </item>
+    <item row="4" column="4">
+     <property name="text">
+      <string>8.7Mm</string>
+     </property>
+    </item>
+    <item row="4" column="5">
+     <property name="text">
+      <string>9.4</string>
+     </property>
+    </item>
+    <item row="4" column="6">
+     <property name="text">
+      <string>12.0Nd</string>
+     </property>
+    </item>
+    <item row="4" column="7">
+     <property name="text">
+      <string>45.0°</string>
+     </property>
+    </item>
+    <item row="4" column="8">
+     <property name="text">
+      <string>43.5°</string>
+     </property>
+    </item>
+    <item row="4" column="9">
+     <property name="text">
+      <string>37.9°</string>
+     </property>
+    </item>
+    <item row="4" column="10">
+     <property name="text">
+      <string>38.5°</string>
+     </property>
+    </item>
+    <item row="4" column="11">
+     <property name="text">
+      <string>0.6°</string>
+     </property>
+    </item>
+    <item row="4" column="12">
+     <property name="text">
+      <string>7.1°</string>
+     </property>
+    </item>
+    <item row="5" column="0">
+     <property name="text">
+      <string>29-07-00.00E</string>
+     </property>
+    </item>
+    <item row="5" column="1">
+     <property name="text">
+      <string>44-07-00.00N</string>
+     </property>
+    </item>
+    <item row="5" column="2">
+     <property name="text">
+      <string>11:20:00</string>
+     </property>
+    </item>
+    <item row="5" column="3">
+     <property name="text">
+      <string>166.5</string>
+     </property>
+    </item>
+    <item row="5" column="4">
+     <property name="text">
+      <string>7.0Mm</string>
+     </property>
+    </item>
+    <item row="5" column="5">
+     <property name="text">
+      <string>7.5</string>
+     </property>
+    </item>
+    <item row="5" column="6">
+     <property name="text">
+      <string>10.0Nd</string>
+     </property>
+    </item>
+    <item row="5" column="7">
+     <property name="text">
+      <string>340.0°</string>
+     </property>
+    </item>
+    <item row="5" column="8">
+     <property name="text">
+      <string>338.5°</string>
+     </property>
+    </item>
+    <item row="5" column="9">
+     <property name="text">
+      <string>330.6°</string>
+     </property>
+    </item>
+    <item row="5" column="10">
+     <property name="text">
+      <string>333.5°</string>
+     </property>
+    </item>
+    <item row="5" column="11">
+     <property name="text">
+      <string>2.9°</string>
+     </property>
+    </item>
+    <item row="5" column="12">
+     <property name="text">
+      <string>9.4°</string>
+     </property>
+    </item>
+    <item row="6" column="0">
+     <property name="text">
+      <string>29-05-00.00E</string>
+     </property>
+    </item>
+    <item row="6" column="1">
+     <property name="text">
+      <string>44-13-00.00N</string>
+     </property>
+    </item>
+    <item row="6" column="2">
+     <property name="text">
+      <string>12:00:00</string>
+     </property>
+    </item>
+    <item row="6" column="3">
+     <property name="text">
+      <string>173.6</string>
+     </property>
+    </item>
+    <item row="6" column="4">
+     <property name="text">
+      <string>6.6Mm</string>
+     </property>
+    </item>
+    <item row="6" column="5">
+     <property name="text">
+      <string>7.1</string>
+     </property>
+    </item>
+    <item row="6" column="6">
+     <property name="text">
+      <string>0.0Nd</string>
+     </property>
+    </item>
+    <item row="6" column="7">
+     <property name="text">
+      <string>0.0°</string>
+     </property>
+    </item>
+    <item row="6" column="8">
+     <property name="text">
+      <string>0.0°</string>
+     </property>
+    </item>
+    <item row="6" column="9">
+     <property name="text">
+      <string>0.0°</string>
+     </property>
+    </item>
+    <item row="6" column="10">
+     <property name="text">
+      <string>0.0°</string>
+     </property>
+    </item>
+    <item row="6" column="11">
+     <property name="text">
+      <string>0.0°</string>
+     </property>
+    </item>
+    <item row="6" column="12">
+     <property name="text">
+      <string>0.0°</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="titlumare">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>10</y>
+      <width>721</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 36pt &quot;Calibri&quot;;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:28pt; font-weight:600;&quot;&gt;Calculator de navigație estimată&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="adaugasecv">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 10pt &quot;Bookman Old Style&quot;;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:400;&quot;&gt;Adaugă o secvență&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="titlutabel1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>130</y>
+      <width>281</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 10pt &quot;Bookman Old Style&quot;;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:400; font-style:italic;&quot;&gt;Tabel date inițiale&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="titlutabel2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>480</y>
+      <width>281</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 10pt &quot;Bookman Old Style&quot;;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:400; font-style:italic;&quot;&gt;Tabel rezultate&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="calculeaza">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>840</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25 10pt &quot;Bookman Old Style&quot;;
+text-decoration: underline;
+background-color:rgb(170, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>CALCULEAZĂ</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="sterge">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>85</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 10pt &quot;Bookman Old Style&quot;;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Șterge o secvență&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="plus">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>85</y>
+      <width>31</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#plus{
+background-color:rgb(170, 255, 255);
+font: 25 15pt &quot;Bookman Old Style&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="minus">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>85</y>
+      <width>31</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#minus{
+background-color:rgb(170, 255, 255);
+font: 25 15pt &quot;Bookman Old Style&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>-</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="fundal">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1400</width>
+      <height>900</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#fundal{
+border-image:url(:/newPrefix/fundal aplicatie.jpg);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="d2022text">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>90</y>
+      <width>121</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:26pt;&quot;&gt;d&lt;/span&gt;&lt;span style=&quot; font-size:26pt; vertical-align:sub;&quot;&gt;2022 = &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="d2022">
+    <property name="geometry">
+     <rect>
+      <x>1190</x>
+      <y>100</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25 26pt &quot;Bookman Old Style&quot;;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;6.5&lt;span style=&quot; font-family:'JetBrains Mono,monospace'; font-size:9.8pt; color:#6a8759;&quot;&gt;°&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>1040</x>
+      <y>160</y>
+      <width>311</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Simularea drumului navei pe harta de navigație &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;de la Nos Kaliakra la Delta Dunării&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="fundal_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>2000</width>
+      <height>900</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#fundal{
+border-image:url(:/newPrefix/fundal aplicatie.jpg);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ajutorbutton">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>0</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#ajutorbutton{
+background-color:rgb(0, 85, 255);
+font: 25 9pt &quot;Bookman Old Style&quot;;
+color:white
+}</string>
+    </property>
+    <property name="text">
+     <string>Ajutor</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exemplubutton">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>0</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#exemplubutton{
+background-color:rgb(0, 85, 255);
+font: 25 9pt &quot;Bookman Old Style&quot;;
+color:white
+}</string>
+    </property>
+    <property name="text">
+     <string>Exemplu</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="desprebutton">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>0</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#desprebutton{
+background-color:rgb(0, 85, 255);
+font: 25 9pt &quot;Bookman Old Style&quot;;
+color:white
+}</string>
+    </property>
+    <property name="text">
+     <string>Despre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="homebutton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#homebutton{
+background-color:rgb(0, 85, 255);
+font: 25 9pt &quot;Bookman Old Style&quot;;
+color:white
+}</string>
+    </property>
+    <property name="text">
+     <string>Home</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="pozagrafic">
+    <property name="geometry">
+     <rect>
+      <x>1020</x>
+      <y>240</y>
+      <width>341</width>
+      <height>571</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image:url(:/newPrefix/pozagrafic.png)</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <zorder>fundal</zorder>
+   <zorder>tabelvalori</zorder>
+   <zorder>tabelrezultate</zorder>
+   <zorder>titlumare</zorder>
+   <zorder>adaugasecv</zorder>
+   <zorder>titlutabel1</zorder>
+   <zorder>titlutabel2</zorder>
+   <zorder>calculeaza</zorder>
+   <zorder>sterge</zorder>
+   <zorder>plus</zorder>
+   <zorder>minus</zorder>
+   <zorder>d2022text</zorder>
+   <zorder>d2022</zorder>
+   <zorder>label</zorder>
+   <zorder>fundal_2</zorder>
+   <zorder>ajutorbutton</zorder>
+   <zorder>exemplubutton</zorder>
+   <zorder>desprebutton</zorder>
+   <zorder>homebutton</zorder>
+   <zorder>pozagrafic</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../../licenta/venv/fundaltransp.qrc"/>
+  <include location="pozagrafic.qrc"/>
+ </resources>
+ <connections/>
+</ui>

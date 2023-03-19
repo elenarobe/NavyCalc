@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1390</width>
+    <height>897</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1391</width>
+     <height>901</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#widget{
+border-image:url(:/newPrefix/fundal aplicatie.jpg);
+}</string>
+   </property>
+   <widget class="QLabel" name="titlelabel_4">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>10</y>
+      <width>281</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#titlelabel_4{
+font: 25 8pt &quot;Bookman Old Style&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:36pt;&quot;&gt;Despre&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ajutorbutton_4">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>0</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#ajutorbutton_4{
+background-color:rgb(0, 85, 255);
+font: 25 9pt &quot;Bookman Old Style&quot;;
+color:white
+}</string>
+    </property>
+    <property name="text">
+     <string>Ajutor</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exemplubutton_4">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>0</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#exemplubutton_4{
+background-color:rgb(0, 85, 255);
+font: 25 9pt &quot;Bookman Old Style&quot;;
+color:white
+}</string>
+    </property>
+    <property name="text">
+     <string>Exemplu</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="desprebutton_4">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>0</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#desprebutton_4{
+background-color:rgb(0, 85, 255);
+font: 25 9pt &quot;Bookman Old Style&quot;;
+color:white
+}</string>
+    </property>
+    <property name="text">
+     <string>Despre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="homebutton_4">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#homebutton_4{
+background-color:rgb(0, 85, 255);
+font: 25 9pt &quot;Bookman Old Style&quot;;
+color:white
+}</string>
+    </property>
+    <property name="text">
+     <string>Home</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="fundal">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1400</width>
+      <height>900</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#fundal{
+border-image:url(:/newPrefix/fundal aplicatie.jpg);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>130</y>
+      <width>1231</width>
+      <height>711</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;NavyCalc este un software care are ca scop asistarea, atât a studenților cât și a profesorilor, în rezolvarea problemelor de navigație estimată, prin metoda estimei directe. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;De asemenea, prin acest program s-a urmărit și reducerea erorilor de calcul, rezultate în urma rezolvării prin metoda clasică.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Versiunile următoare ale acestui program vor cuprinde și posibilitatea rezolvării celorlalte tipuri de probleme de navigație.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Acest software a fost conceput în întregime cu ajutorul limbajului Python și Qt Designer.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Creator: Georgiana-Cătălina CRISTEA&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Academia Navală &amp;quot;Mircea cel Bătrân&amp;quot;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>fundal</zorder>
+   <zorder>titlelabel_4</zorder>
+   <zorder>ajutorbutton_4</zorder>
+   <zorder>exemplubutton_4</zorder>
+   <zorder>desprebutton_4</zorder>
+   <zorder>homebutton_4</zorder>
+   <zorder>label</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="fundaltransp.qrc"/>
+ </resources>
+ <connections/>
+</ui>

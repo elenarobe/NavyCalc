@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="fundtransp"/>
+  <qresource prefix="newPrefix">
+    <file>fundal aplicatie.jpg</file>
+  </qresource>
+</RCC>

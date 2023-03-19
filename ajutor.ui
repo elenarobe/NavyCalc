@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1390</width>
+    <height>897</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1390</width>
+     <height>897</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#widget{
+border-image:url(:/newPrefix/fundal aplicatie.jpg);
+}</string>
+   </property>
+   <widget class="QLabel" name="titlelabel">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>10</y>
+      <width>301</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#titlelabel{
+
+	font: 25 8pt &quot;Bookman Old Style&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:36pt; font-weight:400;&quot;&gt;Ajutor&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ajutorbutton">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>0</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#ajutorbutton{
+background-color:rgb(0, 85, 255);
+font: 25 9pt &quot;Bookman Old Style&quot;;
+color:white
+}</string>
+    </property>
+    <property name="text">
+     <string>Ajutor</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exemplubutton">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>0</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#exemplubutton{
+background-color:rgb(0, 85, 255);
+font: 25 9pt &quot;Bookman Old Style&quot;;
+color:white
+}</string>
+    </property>
+    <property name="text">
+     <string>Exemplu</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="desprebutton">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>0</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#desprebutton{
+background-color:rgb(0, 85, 255);
+font: 25 9pt &quot;Bookman Old Style&quot;;
+color:white
+}</string>
+    </property>
+    <property name="text">
+     <string>Despre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="homebutton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#homebutton{
+background-color:rgb(0, 85, 255);
+font: 25 9pt &quot;Bookman Old Style&quot;;
+color:white
+}</string>
+    </property>
+    <property name="text">
+     <string>Home</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="fundal">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1400</width>
+      <height>900</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#fundal{
+border-image:url(:/newPrefix/fundal aplicatie.jpg);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>120</y>
+      <width>1261</width>
+      <height>731</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Indicații:&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;1. Pentru navigarea între ferestrele programului, se va folosi meniul de mai sus format din butoanele Home, Exemplu, Ajutor și Despre.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt; font-style:italic;&quot;&gt;Fereastra Home:&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;1. Pentru introducerea datelor în celulele corespunzătoare latitudinii și longitudinii, trebuie respectat formatul &amp;quot;grade-minute-secunde.zecimale&amp;quot;, urmat de punctul cardinal corespunzător. &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Exemplu: 43-12-13.12N&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;2. Pentru introducerea datelor în celulele corespunzătoare orei, trebuie respectat formatul &amp;quot;hh:mm:ss&amp;quot;.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Exemplu: 12:00:00&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;3. Programul NavyCalc este special destinat calculării problemelor de navigație estimată, prin metoda estimei directe. Din acest motiv, este absolut necesară furnizarea coordonatelor navei pentru fiecare secventă. Doar astfel se va putea obține o simulare a drumului navei pe hartă.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;4. Trebuie să aveți în vedere ca în momentul completării celulelor, sa completați cu &amp;quot;0&amp;quot; acolo unde nu există informații disponibile în cadrul cerinței problemei.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;5. După introducerea tuturor datelor, se apasă butonul Calculează, situat în partea de jos a ferestrei Home.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt; font-style:italic;&quot;&gt;Fereastra Exemplu:&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;1. În această fereastră veți regăsi o problemă de navigație rezolvată.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt; font-style:italic;&quot;&gt;Fereastra Despre:&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;1.Aici se vor regăsi informații despre aplicație și despre autor.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>fundal</zorder>
+   <zorder>titlelabel</zorder>
+   <zorder>ajutorbutton</zorder>
+   <zorder>exemplubutton</zorder>
+   <zorder>desprebutton</zorder>
+   <zorder>homebutton</zorder>
+   <zorder>label</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="fundaltransp.qrc"/>
+ </resources>
+ <connections/>
+</ui>
