@@ -34,3 +34,13 @@ will be displayed in the second table, along with the value of the magnetic decl
 a simulation of the map drawing in the two-dimensional graph.
 ![image](https://user-images.githubusercontent.com/121317737/226164133-1ec1b587-be2e-4afa-8592-a78fc617b97c.png)
 
+## Example window
+This window contains, as the title says, an example of a
+solved dead reckoning problem, more precisely, the final shape of the window, after
+pressing the “Calculate” button.
+Regarding its composition, it has the same elements as the “Home” window.
+In order to navigate to this window, one must press the “Example” button, located in
+the upper left corner.
+![image](https://user-images.githubusercontent.com/121317737/226164648-df064d45-c731-4ee1-868f-4c99978ea803.png)
+
+
