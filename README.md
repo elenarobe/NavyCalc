@@ -59,8 +59,6 @@ Its components are similar to the previous window presented.
 In order to navigate to this window, one must press the “About” button, located in
 the upper left corner
 
-![image](https://user-images.githubusercontent.com/121317737/226164719-1e9fb44d-266e-466d-b328-433e8f5a24e2.png)
-
 ## Conclusions
 In conclusion, the purpose of this project to develop a modern way to solve dead
 reckoning problems through a completely functional and responsive software in order to
